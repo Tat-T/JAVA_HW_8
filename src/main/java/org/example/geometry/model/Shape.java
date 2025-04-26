@@ -1,4 +1,5 @@
 package org.example.geometry.model;
 
-public class Shape {
+public interface Shape {
+    double calculateArea();
 }
